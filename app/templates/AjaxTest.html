@@ -1,0 +1,21 @@
+{% extends "pageLayoutTemplate.html" %}
+{% block title %}Test Load{% endblock %}
+{% block head %} 
+	{{ super() }} 
+{% endblock %}
+
+{% block content %}
+	<!-- {{super()}} -->
+
+	<div class="content">here is the base content to rewrite</div>
+
+
+	<button type="button" onclick="addContent()">Click Me!</button>
+
+{% endblock %}
+
+
+{% block footer %}
+    {{ super() }}
+    <script type="text/javascript" src="../static/js/test-function.js"></script>
+{% endblock %}

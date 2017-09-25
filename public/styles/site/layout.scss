@@ -1,0 +1,25 @@
+#header {
+	margin-top: 0px;
+}
+
+#footer {
+	.invisible{
+		display: none;
+	}
+	margin-top: 51px;
+	border-top: 1px solid #eeeeee;
+	padding-top: 30px;
+	color: #777777;
+}
+
+.gallery-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#body {
+	//padding-top: 51px;
+	height: 100% !important;
+}
+

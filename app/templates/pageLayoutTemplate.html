@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		{% block head %}
+			<title>{% block title %}Geo Map Tool {% endblock %}</title>
+
+		    <meta charset="utf-8"> 
+		    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		    <!-- Dynographs -->
+		    <script src="http://cdnjs.cloudflare.com/ajax/libs/dygraph/1.1.1/dygraph-combined.js"></script>
+		    
+		    <!-- Maps information goes here -->
+		    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyHouJvIaHwiAcMpxP152Vfd0INgbawjo"></script>
+		    <script type="text/javascript" src="../static/js/google-maps.js"></script>
+			<link rel="stylesheet" href="../static/css/maps.css" />
+
+
+			<!-- JQUERY -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+			<!-- Weather Window JS & CSS -->
+			<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.0.2/jquery.simpleWeather.min.js"></script>
+			<link rel="stylesheet" href="../static/css/weather.css" />
+
+			<!-- DataTables CSS -->
+			<link rel="stylesheet" type="text/css" href="../static/js/DataTables-1.10.7/media/css/jquery.dataTables.css">
+
+			<!-- jQuery -->
+			<script type="text/javascript" charset="utf8" src="../static/js/DataTables-1.10.7/media/js/jquery.js"></script>
+
+			<!-- DataTables -->
+			<script type="text/javascript" charset="utf8" src="../static/js/DataTables-1.10.7/media/js/jquery.dataTables.js"></script>
+
+			<!-- <script type="text/javascript" src="../static/js/initialize.js"></script> -->
+
+		{% endblock %}
+	</head>
+	
+	<body>
+		{% block content %}
+			<p>Nothing but contempt for this lack of content</p>
+		{% endblock %}
+
+
+		{% block footer %}
+			<!-- <script type="text/javascript" src="../static/js/weather.js"></script>-->
+			<script type="text/javascript" src="../static/js/helper-functions.js"></script>
+
+		{% endblock %}
+	</body>
+</html>
+	<!-- Bootstrap if necessary -->
+	<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
+	<!--0<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->

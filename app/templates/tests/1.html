@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<!-- Dynographs -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/dygraph/1.1.1/dygraph-combined.js"></script>
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!--<link href="../static/css/bootstrap.min.css" rel="stylesheet">-->
+	<link href="../static/css/test.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+			<div>
+				<h4>Quadrants</h4>
+				<ul class="nav nav-tabs" id="selection-tabs">
+					<li class="active"><a href="#quad-1">Quad 1</a></li>
+					<li><a href="#quad-2">Quad 2</a></li>
+					<li><a href="#quad-3">Quad 3</a></li>
+					<li><a href="#quad-4">Quad 4</a></li>
+					<li><a href="#all-quads">All</a></li>
+				</ul>
+			</div>
+
+
+			<div class="tab-content">
+				<div id="quad-1" class="tab-pane fade in active">
+				</div>
+				<div id="quad-2" class="tab-pane fade">
+				</div>
+				<div id="quad-3" class="tab-pane fade">
+				</div>
+				<div id="quad-4" class="tab-pane fade">
+				</div>
+				<div id="all-quads" class="tab-pane fade">
+
+
+		<div>
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8 text-center">
+				<div id="demodiv" style="width:100%"></div>
+
+
+<script type="text/javascript">
+g = new Dygraph(document.getElementById("demodiv"),
+                 "X,Y,Z\n" +
+                 "1,0,3\n" +
+                 "2,2,6\n" +
+                 "3,4,8\n" +
+                 "4,6,9\n" +
+                 "5,8,9\n" +
+                 "6,10,8\n" +
+                 "7,12,6\n" +
+                 "8,14,3\n",
+                 {
+                     // options go here. See http://dygraphs.com/options.html
+                     legend: 'always',
+                     animatedZooms: true,
+                     title: 'dygraphs chart template'
+                 });
+
+
+  $(document).ready(function() {
+
+    $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+    });
+
+	$(".nav-tabs a").on('shown.bs.tab', function (e) {
+	  var target = $(e.target).attr("href") // activated tab
+	  console.log(target);
+	  if (target === "#all-quads") {
+	  	console.log("resized");
+		g.resize();
+	  }
+	});
+
+});
+</script>
+
+
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+
+				</div>
+			</div>
+
+
+
+
+
+
+
+</body>
+</html>

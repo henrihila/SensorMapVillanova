@@ -1,0 +1,27 @@
+html,body{height:100%;}
+
+.navbar {
+  border-radius: 0;
+}
+
+/* Jtable */
+tr.jtable-data-row {
+  td {
+    img {
+      max-width: 20px;
+    }
+  }
+}
+
+/* General */
+.responsive-box {
+    margin: 5% auto;
+    width: 100%;
+    //max-width: 350px; /*add media queries*/
+    align-self: center;
+}
+
+.flex-display {
+    min-height: 100%;
+    display: flex;
+}

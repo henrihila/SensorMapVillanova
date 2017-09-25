@@ -1,0 +1,212 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 30%;
+}
+
+#sidebar-wrapper {
+    padding-top: 60px;
+    z-index: 1000;
+    position: fixed;
+    left: 30%;
+    width: 0;
+    height: 100%;
+    margin-left: -30%;
+    overflow-y: auto;
+    background: #F8F8F8;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 30%;
+}
+
+#sidebar-header {
+    position: fixed;
+    left: 0px;
+    top: 52px;
+    z-index: 100;
+    border-bottom: dashed #E1E2E4;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+#sidebar-header.toggled {
+    width: 30%;
+    position: fixed;
+    left: 0px;
+    top: 52px;
+    z-index: 100;
+    border-bottom: dashed #E1E2E4;
+}
+
+#sidebar-header.maximized {
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 52px;
+    z-index: 100;
+    border-bottom: dashed #E1E2E4;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -30%;
+}
+
+/* Sidebar Styles */
+
+
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 30%;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #wrapper.maximized {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 30%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #wrapper.maximized #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+
+    #wrapper.maximized #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+#wrapper.maximized {
+    padding-left: 100%;
+}
+
+#wrapper.maximized #sidebar-wrapper {
+    width: 100%;
+}
+
+#wrapper.maximized #page-content-wrapper {
+    position: fixed;
+    margin-right: -100%;
+}
+
+h3 .panel-heading { display: inline-block; }
+
+
+
+@media(min-width:768px) {
+
+}
+
+#sensor-data-viz, #sensor-data-viz-2 {
+    border: dotted;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    width: 240px;
+    height: 240px;
+}
+
+.tab-content {
+    padding: 40px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus  {
+    background: #F8F8F8;
+}
+/*
+#sensor-data-viz { position: relative; left: 5px; right: 30px; top: 30px; bottom: 30px; }
+
+/*
+#sensor-data-viz {
+    border-style: dotted;
+}*/
+
+#sidebar-title {
+	font-size: larger;
+}
+
+#sidebar-title-icon {
+	top: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-toolbar {
+	margin: 0 auto;
+	overflow:hidden;
+	width:90%
+}
+
+
+.checkbox-toolbar div {
+	margin: 0px 10px 10px 10px;
+}
+
+
+.col-sm-4 div {
+	margin: 0 auto;
+}
+
+#combined-graphs-menu div {
+	min-width: 155px;
+}
+
+#combined-graphs-menu .combined-graphs-menu-item {
+	text-align: center;
+	margin: auto
+}
+
+.combined-graphs-menu-item h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+#combined-graphs-plot-button {
+	margin: 15px 15px;
+}
+

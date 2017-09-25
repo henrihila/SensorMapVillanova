@@ -1,0 +1,123 @@
+extends ../layouts/default
+
+block head
+
+block css
+    //link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    //link(rel="stylesheet", href="/styles/bootstrap-switch.min.css")
+    //link(rel="stylesheet", href="/styles/dropdown-enhancement.css")
+    link(rel="stylesheet", href="/styles/bootstrap-datepicker3.standalone.min.css")
+    link(rel="stylesheet", href="/styles/split-pane.css")
+    link(href='/styles/map-tool.css', rel='stylesheet')
+
+
+block js
+
+    // Global settings
+    script(src='/js/config.js')
+
+    // Dygraph
+    script(src='/js/dygraph/dygraph-combined.js')
+    // <script src="http://dygraphs.com/extras/synchronizer.js"></script>
+    script(src='/js/dygraph/sync.js')
+
+    // jQuery
+    //script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js')
+
+    //script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")
+    //script(src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+    script(src='/js/bootstrap/bootstrap-switch.min.js')
+    script(src='/js/bootstrap/dropdown-enhancement.min.js')
+    script(src='/js/bootstrap/bootstrap-datepicker.min.js')
+    script(src='/js/tool-helpers/spin.min.js')
+    script(src='/js/tool-helpers/split-pane.js')
+
+    // Maps information goes here
+    script(type='text/javascript', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDyHouJvIaHwiAcMpxP152Vfd0INgbawjo')
+    script(type='text/javascript', src='/js/tool-helpers/services.js')
+    script(type='text/javascript', src='/js/tool-helpers/dom-generator.js')
+    script(type='text/javascript', src='/js/tool-helpers/dashboard.js')
+    script(type='text/javascript', src='/js/tool-helpers/graphs.js')
+    script(type='text/javascript', src='/js/tool-helpers/google-maps.js')
+
+    // Menu Toggle Script
+    script.
+        $(window).resize(function () {
+            var h = $(window).height(),
+                    offsetTop = 52; // Calculate the top offset
+            $('#map-canvas').css('height', (h - offsetTop));
+        }).resize();
+
+block content
+
+    #noSitesFound.modal.fade(role='dialog')
+        .modal-dialog
+            // Modal content
+            .modal-content
+                .modal-header
+                    button.close(type='button', data-dismiss='modal') ×
+                    h4.modal-title 0 Results
+                .modal-body
+                    p No green sites found! Please try again later..
+                .modal-footer
+                    button.btn.btn-default(type='button', data-dismiss='modal') Close
+
+
+    // Main Content
+    .main-split-pane-frame
+        // This div is added for styling purposes only. It's not part of the split-pane plugin.
+        .split-pane.vertical-percent
+            #left-component.split-pane-component.closed
+                // dashboard
+                #dashboard-wrapper
+                    #dashboard-header
+                        .navbar.navbar-dash
+                            .navbar-header.pull-left
+                                a#dashboard-title.navbar-text.navbar-right(href='#')
+                                    span#dashboard-title-icon.glyphicon.glyphicon-dashboard
+                                    |  Dashboard
+                            .navbar-header.pull-right
+                                button#maximize.btn.btn-default.navbar-btn.btn-xs(type='button')
+                                    span.glyphicon.glyphicon-resize-full
+                                button#close.btn.btn-default.navbar-btn.btn-xs(type='button', data-toggle='tooltip', data-placement='right', title='Close Dashboard')
+                                    span.glyphicon.glyphicon-chevron-left
+                    #accordion.panel-group
+                        .panel.panel-dash
+                            .panel-heading.panel-heading-dash
+                                a.collapsed(data-toggle='collapse', data-parent='#accordion', href='#collapse1', aria-expanded='true', aria-controls='collapseOne')
+                                    span
+                                        i.glyphicon.glyphicon-home
+                                        |  The Site
+                            #collapse1.panel-collapse.collapse.in
+                                .panel-body.panel-body-dash
+                                    .row
+                                        #site-about-section.col-sm-10.col-sm-offset-1
+                        .panel.panel-dash
+                            .panel-heading.panel-heading-dash
+                                a.collapsed(data-toggle='collapse', data-parent='#accordion', href='#collapse2', aria-expanded='true', aria-controls='collapseOne')
+                                    span
+                                        i.glyphicon.glyphicon-stats
+                                        |  Graphs
+                            #collapse2.panel-collapse.collapse
+                                .panel-body.panel-body-dash
+                                    .row
+                                        #site-data-viewer-section.col-sm-10.col-sm-offset-1
+                        .panel.panel-dash
+                            .panel-heading.panel-heading-dash
+                                a.collapsed(data-toggle='collapse', data-parent='#accordion', href='#collapse3', aria-expanded='true', aria-controls='collapseOne')
+                                    span
+                                        i.glyphicon.glyphicon-equalizer
+                                        |  More Information
+                            #collapse3.panel-collapse.collapse
+                                .panel-body.panel-body-dash
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                // End of dashboard
+            #my-divider.split-pane-divider.invisible
+            #right-component.split-pane-component.maximized-r
+                #map-area.container-fluid
+                    #map-toolbar-wrapper.wrapper.text-center
+                        #map-toolbar
+                    #map-canvas
+

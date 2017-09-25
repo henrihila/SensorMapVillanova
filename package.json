@@ -1,0 +1,35 @@
+{
+  "name": "sensormap",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "async": "^1.5.2",
+    "dotenv": "^2.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.1.0",
+    "gulp-sass": "^2.3.2",
+    "https": "^1.0.0",
+    "jshint": "^2.9.4",
+    "keystone": "^0.3.19",
+    "lodash": "^4.13.1",
+    "node-sass": "^3.10.0",
+    "node-sass-middleware": "^0.9.8",
+    "promise": "^7.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.12.0",
+    "eslint-config-keystone": "^2.3.1",
+    "eslint-plugin-react": "^5.1.1",
+    "gulp": "^3.7.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-shell": "^0.5.0",
+    "gulp-watch": "^4.3.5"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node keystone.js"
+  }
+}

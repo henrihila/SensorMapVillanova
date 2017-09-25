@@ -1,0 +1,172 @@
+$dashboard-width: 35%;
+$dashboard-desktop-min: 845px;
+
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media only screen and (max-width: 767px) { @content; }
+  }
+  @else if $media == medium-screens {
+    @media only screen and (min-width: 768px) and (max-width: 1024px) { @content; }
+  }
+  @else if $media == wide-screens {
+    @media only screen and (min-width: 1024px) { @content; }
+  }
+}
+
+#dashboard-wrapper {
+  @include dashboard-transition($splitter-transition-time);
+  //background: $color-light-theme;
+}
+
+#dashboard-wrapper .tab-content {
+  padding: 7px;
+  @include respond-to('wide-screens') {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+//#dashboard-header div {
+//  padding-right: 5px;
+//}
+
+#maximize {
+  @media screen and (max-width: $dashboard-desktop-min) {
+    display: none;
+  }
+}
+
+#sensor-data-viz, #sensor-data-viz-2 {
+  border: dotted;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  width: 240px;
+  height: 240px;
+}
+
+/* Combined Graphs Area */
+.tab-plot .row {
+  margin: 0;
+}
+
+.checkbox-toolbar {
+  margin: 0 auto;
+  overflow:hidden;
+  width:90%
+}
+
+.checkbox-toolbar div {
+  margin: 0px 10px 10px 10px;
+}
+
+#combined-graphs-menu div {
+  //min-width: 155px;
+}
+
+#combined-graphs-menu .combined-graphs-menu-item { //TODO: check this
+  text-align: center;
+  margin: auto
+}
+
+.graphs-plot-button {
+  margin: 15px 15px;
+}
+
+.col-sm-4 div {
+  margin: 0 auto;
+}
+
+div.dashboard-small > h4 {
+  font-size: smaller;
+}
+
+.dashboard-small {
+  font-size: smaller;
+}
+
+.navbar-dash {
+  padding-right: 5px;
+  border-color: #3a9da5 !important;
+  border-width: 3px !important;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  margin-bottom: 10px !important;
+}
+
+.panel-dash {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+  border: none;
+}
+
+.panel-body-dash {
+  background-color: white;
+}
+
+.panel-heading-dash {
+  background-color: #e4e7ea;
+
+  //a: active{
+  //  text-decoration: none !important;
+  //  font-weight: 500;
+  //  //color: #e4e7ea;
+  //}
+
+  a {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  a:link, a:active {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+  }
+
+  a:hover, a:visited {
+    //font-size: 15px;
+    //font-weight: 500;
+    text-decoration: none;
+  }
+
+
+
+}
+
+.panel-heading a:after {
+  font-family:'Glyphicons Halflings';
+  content:"\e159";
+  float: right;
+}
+.panel-heading a.collapsed:after {
+  content:"\e158";
+}
+
+.graph-toolbar,
+#data-viewer-filters {
+  .panel-heading a.collapsed:after {
+    content: none;
+  }
+  .panel-heading a:after {
+    content: none;
+  }
+  .panel-heading a:before {
+    font-family:'Glyphicons Halflings';
+    content:"\e259";
+    float: left;
+  }
+  .panel-heading a.collapsed:before {
+    content:"\e258";
+  }
+  .panel-heading {
+    background-color: #FFFFFF;
+  }
+  .panel {
+    border: none;
+  }
+  p.panel-title {
+    font-size: smaller;
+  }
+}

@@ -1,0 +1,101 @@
+//
+   Created by enea on 12/12/16.
+
+extends ../layouts/default
+
+block head
+
+block css
+    //link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    //link(rel="stylesheet", href="/styles/bootstrap-switch.min.css")
+    //link(rel="stylesheet", href="/styles/dropdown-enhancement.css")
+    link(rel="stylesheet", href="/styles/bootstrap-datepicker3.standalone.min.css")
+    link(rel="stylesheet", href="/styles/split-pane.css")
+    link(href='/styles/map-tool.css', rel='stylesheet')
+
+
+block js
+
+    // Global settings
+    script(src='/js/config.js')
+
+    // Dygraph
+    script(src='/js/dygraph/dygraph-combined.js')
+    // <script src="http://dygraphs.com/extras/synchronizer.js"></script>
+    script(src='/js/dygraph/sync.js')
+    script(src='/js/dygraph/test.js')
+
+    // jQuery
+    //script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js')
+
+    //script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")
+    //script(src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+    script(src='/js/bootstrap/bootstrap-switch.min.js')
+    script(src='/js/bootstrap/dropdown-enhancement.min.js')
+    script(src='/js/bootstrap/bootstrap-datepicker.min.js')
+    script(src='/js/tool-helpers/spin.min.js')
+    script(src='/js/tool-helpers/split-pane.js')
+
+    // Maps information goes here
+    script(type='text/javascript', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDyHouJvIaHwiAcMpxP152Vfd0INgbawjo')
+    script(type='text/javascript', src='/js/tool-helpers/services.js')
+    script(type='text/javascript', src='/js/tool-helpers/dom-generator.js')
+    script(type='text/javascript', src='/js/tool-helpers/dashboard.js')
+    script(type='text/javascript', src='/js/tool-helpers/graphs.js')
+    script(type='text/javascript', src='/js/tool-helpers/google-maps.js')
+
+    // Menu Toggle Script
+    script.
+        $(window).resize(function () {
+            var h = $(window).height(),
+                    offsetTop = 52; // Calculate the top offset
+            $('#map-canvas').css('height', (h - offsetTop));
+        }).resize();
+
+block content
+
+    p
+        | Plot which can be easily generated with different numbers of points for
+        | benchmarking/profiling and improving performance of dygraphs.
+    #parameters
+        p
+            | Data to plot:
+            input#sine(type='radio', name='group1', value='sine', onclick='setDataType(this);', checked='')
+            |  sinusoid function
+            input#rand(type='radio', name='group1', value='rand', onclick='setDataType(this);')
+            |  random points
+            br
+        p
+            | Timestamps:
+            input#aligned(type='radio', name='timestamps', value='aligned', checked='')
+            |  aligned
+            input#unaligned(type='radio', name='timestamps', value='unaligned')
+            |  unaligned
+        p
+            | x-axis type:
+            input#numeric(type='radio', name='x-axis-type', value='numeric', onclick='setXAxisType(this)', checked='')
+            |  numeric
+            input#dates(type='radio', name='x-axis-type', value='date', onclick='setXAxisType(this)')
+            |  date/time
+        p
+            input#fill(type='checkbox')
+            label(for='fill')  Fill?
+        p
+            | Number of points per series (points):
+            input#points(type='text', size='20')
+        p
+            | Number of series (series):
+            input#series(type='text', size='20')
+        p
+            | Roll period (in points, rollPeriod):
+            input#rollPeriod(type='text', size='20')
+        p
+            | Repetitions (repititions):
+            input#repetitions(type='text', size='20')
+        input(type='button', value='Go!', onclick='updatePlot();')
+    br
+    br
+    #plot
+    #message
+    #plot2
+    #message2

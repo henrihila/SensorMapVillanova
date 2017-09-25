@@ -1,0 +1,11 @@
+.dygraph-legend > span.highlight {
+  border: 1px solid grey;
+  border-radius: 2px; }
+
+.dygraph-toolbar {
+  padding: 3px; }
+
+.dygraph-legend {
+  padding-left: 0px; }
+
+/*# sourceMappingURL=dygraphs.css.map */

@@ -1,0 +1,36 @@
+{% extends "pageLayoutTemplate.html" %}
+	{% block title %} 
+		Map Tool 
+	{% endblock %}
+
+	{% block head %} 
+		{{ super() }} 
+	{% endblock %}
+
+	{% block content %}
+
+
+	<div class="windowContent"> 
+		{% if content %}
+			<table id="itable" class="display">
+				<tbody>
+					{% for c in content %}
+						<tr>
+							<td>{{c['date']}}</td>
+							<td>{{c['timevalue']}}</td>
+							<td>{{c['value']}}</td>
+						</tr>
+					{% endfor %}
+				<tbody>
+			</table> 
+
+		{% else %}
+			<p>nothing but contempt for this lack of content</p>
+		{% endif %}
+	</div>
+
+	{% endblock %}
+		
+	{% block footer %} 
+		{{ super() }} 
+	{% endblock %}

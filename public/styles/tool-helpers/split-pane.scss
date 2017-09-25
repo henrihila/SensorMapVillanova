@@ -1,0 +1,103 @@
+.split-pane {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  &.fixed-top > .split-pane-component,
+  &.fixed-bottom > .split-pane-component,
+  &.horizontal-percent > .split-pane-component {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+    top: auto;
+    bottom: 0;
+    z-index: 1;
+  }
+  &.fixed-top > .split-pane-component:first-child,
+  &.fixed-bottom > .split-pane-component:first-child,
+  &.horizontal-percent > .split-pane-component:first-child {
+    top: 0;
+    bottom: auto;
+  }
+  &.fixed-top > .split-pane-divider,
+  &.fixed-bottom > .split-pane-divider,
+  &.horizontal-percent > .split-pane-divider {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    cursor: row-resize;
+    z-index: 2;
+  }
+  &.fixed-top > .split-pane-divider > .split-pane-divider-inner,
+  &.fixed-bottom > .split-pane-divider > .split-pane-divider-inner,
+  &.horizontal-percent > .split-pane-divider > .split-pane-divider-inner {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    padding: 5px 0;
+  }
+  &.fixed-left > .split-pane-component,
+  &.fixed-right > .split-pane-component,
+  &.vertical-percent > .split-pane-component {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    left: auto;
+    right: 0;
+    z-index: 1;
+  }
+  &.fixed-left > .split-pane-component:first-child,
+  &.fixed-right > .split-pane-component:first-child,
+  &.vertical-percent > .split-pane-component:first-child {
+    left: 0;
+    right: auto;
+  }
+  &.fixed-left > .split-pane-divider,
+  &.fixed-right > .split-pane-divider,
+  &.vertical-percent > .split-pane-divider {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    cursor: col-resize;
+    z-index: 2;
+  }
+  &.fixed-left > .split-pane-divider > .split-pane-divider-inner,
+  &.fixed-right > .split-pane-divider > .split-pane-divider-inner,
+  &.vertical-percent > .split-pane-divider > .split-pane-divider-inner {
+    position: absolute;
+    top: 0;
+    left: -5px;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+  }
+}
+
+.split-pane-resize-shim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  display: none;
+}
+
+.split-pane {
+  &.fixed-left > .split-pane-resize-shim,
+  &.fixed-right > .split-pane-resize-shim,
+  &.vertical-percent > .split-pane-resize-shim {
+    cursor: col-resize;
+  }
+  &.fixed-top > .split-pane-resize-shim,
+  &.fixed-bottom > .split-pane-resize-shim,
+  &.horizontal-percent > .split-pane-resize-shim {
+    cursor: row-resize;
+  }
+}

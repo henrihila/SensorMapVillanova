@@ -1,0 +1,355 @@
+[  
+   {  
+      "id":4034,
+      "title":"Drain Valve Control",
+      "desc":"Control drain valve state for automated control",
+      "unit":"binary state variable",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Valve Status",
+      "Medium":"Valve",
+      "Procedure":"Solenoid Valve",
+      "FeatureOfInterest":"Valve State"
+   },
+   {  
+      "id":4037,
+      "title":"Bubbler Control",
+      "desc":"Controls cistern bubbler pump used for freeze protection",
+      "unit":"binary state variable",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Operation Mode",
+      "Medium":"Process piping",
+      "Procedure":"Heat Tape",
+      "FeatureOfInterest":"Heat Tape State"
+   },
+   {  
+      "id":4041,
+      "title":"Temperature Sensor",
+      "desc":"Temperature of ambient air used for automated control",
+      "unit":"12-bit analog to digital conversion",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Temperature",
+      "Medium":"Atmosphere",
+      "Procedure":"Temperature sensor",
+      "FeatureOfInterest":"Ambient Temperature"
+   },
+   {  
+      "id":4620,
+      "title":"Future expected watershed inches of precipitation.",
+      "desc":null,
+      "unit":"inch",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":4621,
+      "title":"Current-window expected precipitation.",
+      "desc":null,
+      "unit":"inch",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":4625,
+      "title":"Storage needed to capture expected load.",
+      "desc":null,
+      "unit":"gallon",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":4626,
+      "title":"Volumetric goal",
+      "desc":null,
+      "unit":"gallon",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":6475,
+      "title":"Total elevation",
+      "desc":null,
+      "unit":"12-bit analog to digital conversion",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":6476,
+      "title":"Current Tank Level Remote Reality",
+      "desc":null,
+      "unit":"HTTP URL",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"N/A",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   }
+][  
+   {  
+      "id":4034,
+      "resourceIds":[  
+         "4034-7756"
+      ],
+      "title":"Drain Valve Control",
+      "desc":"Control drain valve state for automated control",
+      "unit":"binary state variable",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Valve Status",
+      "Medium":"Valve",
+      "Procedure":"Solenoid Valve",
+      "FeatureOfInterest":"Valve State"
+   },
+   {  
+      "id":4037,
+      "resourceIds":[  
+         "4037-7759"
+      ],
+      "title":"Bubbler Control",
+      "desc":"Controls cistern bubbler pump used for freeze protection",
+      "unit":"binary state variable",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Operation Mode",
+      "Medium":"Process piping",
+      "Procedure":"Heat Tape",
+      "FeatureOfInterest":"Heat Tape State"
+   },
+   {  
+      "id":4041,
+      "resourceIds":[  
+         "4041-7763"
+      ],
+      "title":"Temperature Sensor",
+      "desc":"Temperature of ambient air used for automated control",
+      "unit":"12-bit analog to digital conversion",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Temperature",
+      "Medium":"Atmosphere",
+      "Procedure":"Temperature sensor",
+      "FeatureOfInterest":"Ambient Temperature"
+   },
+   {  
+      "id":4620,
+      "resourceIds":[  
+         "4620-9951"
+      ],
+      "title":"Future expected watershed inches of precipitation.",
+      "desc":null,
+      "unit":"inch",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":4621,
+      "resourceIds":[  
+         "4621-9952"
+      ],
+      "title":"Current-window expected precipitation.",
+      "desc":null,
+      "unit":"inch",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":4625,
+      "resourceIds":[  
+         "4625-9957"
+      ],
+      "title":"Storage needed to capture expected load.",
+      "desc":null,
+      "unit":"gallon",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":4626,
+      "resourceIds":[  
+         "4626-9958"
+      ],
+      "title":"Volumetric goal",
+      "desc":null,
+      "unit":"gallon",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":6475,
+      "resourceIds":[  
+         "6475-10608"
+      ],
+      "title":"Total elevation",
+      "desc":null,
+      "unit":"12-bit analog to digital conversion",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":6476,
+      "resourceIds":[  
+         "6476-10609"
+      ],
+      "title":"Current Tank Level Remote Reality",
+      "desc":null,
+      "unit":"HTTP URL",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"N/A",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   }
+][  
+   {  
+      "id":4034,
+      "resourceIds":[  
+         7756
+      ],
+      "title":"Drain Valve Control",
+      "desc":"Control drain valve state for automated control",
+      "unit":"binary state variable",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Valve Status",
+      "Medium":"Valve",
+      "Procedure":"Solenoid Valve",
+      "FeatureOfInterest":"Valve State"
+   },
+   {  
+      "id":4037,
+      "resourceIds":[  
+         7759
+      ],
+      "title":"Bubbler Control",
+      "desc":"Controls cistern bubbler pump used for freeze protection",
+      "unit":"binary state variable",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Operation Mode",
+      "Medium":"Process piping",
+      "Procedure":"Heat Tape",
+      "FeatureOfInterest":"Heat Tape State"
+   },
+   {  
+      "id":4041,
+      "resourceIds":[  
+         7763
+      ],
+      "title":"Temperature Sensor",
+      "desc":"Temperature of ambient air used for automated control",
+      "unit":"12-bit analog to digital conversion",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Temperature",
+      "Medium":"Atmosphere",
+      "Procedure":"Temperature sensor",
+      "FeatureOfInterest":"Ambient Temperature"
+   },
+   {  
+      "id":4620,
+      "resourceIds":[  
+         9951
+      ],
+      "title":"Future expected watershed inches of precipitation.",
+      "desc":null,
+      "unit":"inch",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":4621,
+      "resourceIds":[  
+         9952
+      ],
+      "title":"Current-window expected precipitation.",
+      "desc":null,
+      "unit":"inch",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":4625,
+      "resourceIds":[  
+         9957
+      ],
+      "title":"Storage needed to capture expected load.",
+      "desc":null,
+      "unit":"gallon",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":4626,
+      "resourceIds":[  
+         9958
+      ],
+      "title":"Volumetric goal",
+      "desc":null,
+      "unit":"gallon",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":6475,
+      "resourceIds":[  
+         10608
+      ],
+      "title":"Total elevation",
+      "desc":null,
+      "unit":"12-bit analog to digital conversion",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"Staging Parameter",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   },
+   {  
+      "id":6476,
+      "resourceIds":[  
+         10609
+      ],
+      "title":"Current Tank Level Remote Reality",
+      "desc":null,
+      "unit":"HTTP URL",
+      "locationWkt":"POINT (-77.0289612 38.8947754)",
+      "Property":"N/A",
+      "Medium":"NA",
+      "Procedure":"NA",
+      "FeatureOfInterest":"NA"
+   }
+]

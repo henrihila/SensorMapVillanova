@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<title>Dummy Page</title>
+		{% include "header.html" %}
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="page-header">
+			<!--	<h2>Whoa there... a little overzealous aren't we? <kbd class="pull-right"><span class="glyphicon glyphicon-eye-open"></span></kbd></h2> --> 
+				{% if data %}
+					<h2>Whoa there... a little overzealous aren't we? <kbd class="pull-right"><span class="glyphicon glyphicon-eye-open"></span></kbd></h2> 
+				{% else %}
+					<h2>Whoa there... a little overzealous aren't we? <kbd class="pull-right"><span class="glyphicon glyphicon-eye-close"></span></kbd></h2> 
+				{% endif %}
+
+			</div>
+
+		<!--		<div class="col-sm-6">
+					<p>This is a dummy page for testing, place-holding and general tinkering</p>
+				</div> -->
+
+
+				{% if data %}
+
+
+
+					{% if type=="cursor" %}
+						<div class="row">
+							<div class="col-sm-1">
+								<p>Object Type: <kbd>{{type}}</kdb></p>
+							</div>
+
+							<div class="col-sm-11">
+								{% for x in data %}
+									<ul class="list-group">
+
+										<li class="list-group-item"><kbd>Keys <span class="glyphicon glyphicon-arrow-right"></span> Values</kbd></li>
+										
+											{% for y in x %}
+												<li class="list-group-item">{{y}} <span class="glyphicon glyphicon-arrow-right"></span> {{x[y]}}</li>
+											{% endfor %}
+									</ul>
+								{% endfor %}
+								
+
+
+
+								<!--<table class="table">
+									<tbody>
+										{% for x in data %}
+											<td>{{x}}</td>
+										{% endfor %}
+									<tbody>
+								</table> -->
+							</div>
+						</div>
+					{% else %}
+						<p><kbd>{{type}}</kbd> is not supported, yet</p>
+					{% endif %}
+				{% else %}
+					<div class="col-sm-6">
+						<p><kbd>something's wrong, no data</kbd></p>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- Generic dummy page for testing data and specifically database pulls -->

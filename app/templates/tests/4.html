@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dygraphs Benchmark</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/dygraph/1.1.1/dygraph-combined.js"></script>
+	<script src="http://dygraphs.com/extras/synchronizer.js"></script>
+</head>
+<body>
+	<div id="dygraph-1"></div>
+
+	<h1>Dygraph Tests</h1>
+	<h2>Performance</h2>
+
+	<h2>Toolbar</h2>
+	<form class="text-center dygraph-plot-and-toolbar-wrapper">
+		<div class="row dygraph-plot-row-wrapper">
+			<div class="col-xs-1"></div>
+			<div class="col-xs-10 graph-container text-center">
+				<div class="row">
+					<div class="col-xs-10 text-center">
+						<div id="dygraph-2" class="dygraph-plot" style="width:100%"></div>
+						<div class="dygraph-toolbar text-center">
+							<b>Data Level:</b>
+							<div class="btn-group" role="group" aria-label="...">
+								<button name="hour" type="button" class="btn btn-default btn-responsive">Hour</button>
+								<button name="day" type="button" class="btn btn-default btn-responsive">Day</button>
+								<button name="week" type="button" class="btn btn-default btn-responsive">Week</button>
+								<button name="month" type="button" class="btn btn-default btn-responsive">Month</button>
+								<button name="full" type="button" class="btn btn-default btn-responsive">Reset</button>
+							</div>
+							<b>Move:</b>
+							<div class="btn-group" role="group" aria-label="...">
+								<button name="left" type="button" class="btn btn-default btn-responsive">
+									<span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span></button>
+								<button name="right" type="button" class="btn btn-default btn-responsive">
+									<span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div id="status" class="dygraph-legend col-xs-2 text-left"></div>
+				</div>
+			</div>
+			<div class="col-xs-1"></div>
+		</div>
+	</form>
+
+	<h2>Sync</h2>
+	<form class="text-center dygraph-plot-and-toolbar-wrapper">
+		<div class="row dygraph-plot-row-wrapper">
+			<div class="col-sm-2 text-center"></div>
+			<div class="col-sm-8 text-center graph-container">
+				<div id="dygraph-3" style="width:100%" class="dygraph-plot"></div>
+			</div>
+			<div class="col-sm-2 text-center"></div>
+		</div>
+		<div class="text-center">
+			<b>Zoom:</b>
+			<div class="btn-group" role="group" aria-label="...">
+				<button name="hour" type="button" class="btn btn-default">hour</button>
+				<button name="day" type="button" class="btn btn-default">day</button>
+				<button name="week" type="button" class="btn btn-default">week</button>
+				<button name="month" type="button" class="btn btn-default">month</button>
+				<button name="full" type="button" class="btn btn-default">full</button>
+			</div>
+			<b>Pan:</b>
+			<div class="btn-group" role="group" aria-label="...">
+				<button name="left" type="button" class="btn btn-default">
+					<span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span></button>
+				<button name="right" type="button" class="btn btn-default">
+					<span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
+				</button>
+			</div>
+		</div>
+	</form>
+
+</body>
+<script type="text/javascript" src="../../static/js/tests/4.js"></script>
+<style type="text/css">
+	.dygraph-legend > span.highlight { border: 1px solid grey; border-radius: 2px; }
+	.dygraph-toolbar {
+		padding: 3px;
+	}
+	body {
+		background-color: white;
+	}
+	.dygraph-legend {
+		padding-left: 0px;
+	}
+	/*<!--.dygraph-legend {*/
+		/*<!--background-color: rgba(215, 227, 250, 1) !important;-->*/
+		/*<!--padding: 4px;-->*/
+		/*<!--border: 1px solid #000;-->*/
+		/*<!--border-radius: 10px;-->*/
+		/*<!--box-shadow: 4px 4px 4px #888;-->*/
+		/*<!--pointer-events: none;-->*/
+	/*<!--}-->*/
+
+	@media (max-width: 768px) {
+	  .btn-responsive {
+		padding:2px 4px;
+		font-size:80%;
+		line-height: 1;
+		border-radius:3px;
+	  }
+	}
+
+	@media (min-width: 769px) and (max-width: 992px) {
+	  .btn-responsive {
+		padding:4px 9px;
+		font-size:90%;
+		line-height: 1.2;
+	  }
+	}
+
+	.sixteen-nine {
+  position: relative;
+}
+.sixteen-nine:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 56.25%;
+}
+.sixteen-nine > .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+</style>
+</html>
