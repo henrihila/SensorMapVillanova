@@ -2,527 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8067ce-afb0-4526-bcdb-22f1bee96a9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/admin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/admin/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/admin/metro/lightgray/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/admin/validationEngine.jquery.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/bootstrap-datepicker3.standalone.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/bootstrap-switch.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/dashboard.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/dropdown-enhancement.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/dygraphs-old.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/dygraphs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/dygraphs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/map-tool.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/simple-sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/split-pane.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/css/weather.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/example.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/img/sensor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/Contributing.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/column_render.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/complex_header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/defaults.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/dom_multiple_elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/dom_toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/dt_events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/events_live.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/footer_callback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/html5-data-attributes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/html5-data-options.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/language_file.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/length_menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/object_dom_read.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/row_callback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/row_grouping.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/advanced_init/sort_direction_control.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/custom_data_flat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/custom_data_property.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/data/arrays.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/data/arrays_custom_prop.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/data/arrays_subobjects.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/data/objects.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/data/objects_deep.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/data/objects_root_array.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/data/objects_subarrays.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/data/orthogonal.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/deep.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/defer_render.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/null_data_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/objects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/objects_subarrays.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/orthogonal-data.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/ajax/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/add_row.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/api_in_init.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/counter_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/highlight.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/multi_filter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/multi_filter_select.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/regex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/row_details.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/select_row.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/select_single_row.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/show_hide.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/api/tabs_and_scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/alt_pagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/comma-decimal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/complex_header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/dom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/filter_only.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/flexible_width.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/hidden_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/language.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/multi_col_sort.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/multiple_tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/scroll_x.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/scroll_xy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/scroll_y.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/scroll_y_theme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/state_save.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/table_sorting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/basic_init/zero_configuration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/data_sources/ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/data_sources/dom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/data_sources/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/data_sources/js_array.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/data_sources/server_side.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/plug-ins/api.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/plug-ins/dom_sort.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/plug-ins/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/plug-ins/range_filtering.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/plug-ins/sorting_auto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/plug-ins/sorting_manual.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/resources/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/resources/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/resources/details_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/resources/details_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/resources/examples.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/resources/syntax/Syntax Highlighter license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/resources/syntax/shCore.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/resources/syntax/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/custom_vars.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/defer_loading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/ids.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/jsonp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/object_data.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/pipeline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/row_details.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/scripts/ids-arrays.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/scripts/ids-objects.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/scripts/jsonp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/scripts/mysql.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/scripts/objects.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/scripts/post.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/scripts/postgres.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/scripts/server_processing.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/scripts/sqlite.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/scripts/sqlserver.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/scripts/ssp.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/select_rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/server_side/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/bootstrap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/cell-border.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/compact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/display.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/foundation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/hover.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/jqueryUI.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/no-classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/order-column.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/row-border.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/examples/styling/stripe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/css/dataTables.autoFill.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/css/dataTables.autoFill.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/examples/columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/examples/complete-callback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/examples/fill-both.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/examples/fill-horizontal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/examples/scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/examples/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/examples/step-callback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/images/filler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/js/dataTables.autoFill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/AutoFill/js/dataTables.autoFill.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/License.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/css/dataTables.colReorder.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/css/dataTables.colReorder.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/alt_insert.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/col_filter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/colvis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/fixedcolumns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/fixedheader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/jqueryui.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/new_init.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/predefined.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/realtime.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/reset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/server_side.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/examples/state_save.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/images/insert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/js/dataTables.colReorder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColReorder/js/dataTables.colReorder.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/License.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/css/dataTables.colVis.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/css/dataTables.colVis.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/css/dataTables.colvis.jqueryui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/button_order.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/exclude_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/group_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/jqueryui.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/mouseover.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/new_init.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/restore.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/text.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/title_callback.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/two_tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/examples/two_tables_identical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/js/dataTables.colVis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/ColVis/js/dataTables.colVis.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/License.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/css/dataTables.fixedColumns.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/bootstrap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/col_filter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/colvis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/css_size.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/index_column.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/left_right_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/right_column.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/rowspan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/server-side-processing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/size_fixed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/size_fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/examples/two_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/js/dataTables.fixedColumns.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedHeader/Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedHeader/css/dataTables.fixedHeader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedHeader/examples/header_footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedHeader/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedHeader/examples/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedHeader/examples/top_left_right.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedHeader/examples/two_tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedHeader/examples/zIndexes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedHeader/js/dataTables.fixedHeader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/KeyTable/Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/KeyTable/css/dataTables.keyTable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/KeyTable/css/dataTables.keyTable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/KeyTable/examples/events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/KeyTable/examples/html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/KeyTable/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/KeyTable/examples/scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/KeyTable/examples/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/KeyTable/js/dataTables.keyTable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/KeyTable/js/dataTables.keyTable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/License.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/css/dataTables.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/css/dataTables.responsive.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/child-rows/column-control.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/child-rows/custom-renderer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/child-rows/disable-child-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/child-rows/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/child-rows/right-column.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/child-rows/whole-row-control.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/display-control/auto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/display-control/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/display-control/complexHeader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/display-control/fixedHeader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/display-control/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/display-control/init-classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/initialisation/ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/initialisation/className.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/initialisation/default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/initialisation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/initialisation/new.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/initialisation/option.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/styling/bootstrap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/styling/compact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/styling/foundation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/styling/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/examples/styling/scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/js/dataTables.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Responsive/js/dataTables.responsive.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/css/dataTables.scroller.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/css/dataTables.scroller.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/examples/api_scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/examples/data/2500.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/examples/data/ssp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/examples/large_js_source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/examples/server-side_processing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/examples/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/examples/state_saving.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/images/loading-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/js/dataTables.scroller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/Scroller/js/dataTables.scroller.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/css/dataTables.tableTools.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/css/dataTables.tableTools.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/alter_buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/bootstrap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/button_text.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/collection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/defaults.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/jqueryui.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/multi_instance.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/multiple_tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/new_init.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/pdf_message.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/plug-in.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/select_column.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/select_multi.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/select_os.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/select_single.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/examples/swf_path.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/collection.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/collection_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/copy_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/csv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/csv_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/pdf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/pdf_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/print_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/psd/collection.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/psd/copy document.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/psd/file_types.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/psd/printer.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/xls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/images/xls_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/js/dataTables.tableTools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/js/dataTables.tableTools.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/swf/copy_csv_xls.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/extensions/TableTools/swf/copy_csv_xls_pdf.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/css/jquery.dataTables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/css/jquery.dataTables.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/css/jquery.dataTables_themeroller.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/images/Sorting icons.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/images/sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/images/sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/images/sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/js/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/js/jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/DataTables-1.10.7/media/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/admin/admin_panel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/admin/jquery.jtable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/admin/jquery.validationEngine-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/admin/jquery.validationEngine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/bootstrap-datepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/bootstrap-switch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/dashboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/dom-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/dropdown-enhancement.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/google-maps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/graphs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/image-maps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/initialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jQuery_3.0.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/extensions/jquery.jtable.aspnetpagemethods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/extensions/jquery.jtable.aspnetpagemethods.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/external/json2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/external/json2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/jquery.jtable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/jquery.jtable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.bd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.cz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.nl-NL.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.pt-PT.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.se.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/localization/jquery.jtable.zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/basic/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/basic/column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/basic/column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/basic/column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/basic/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/basic/edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/basic/jtable_basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/basic/jtable_basic.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/basic/jtable_basic.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/bg-thead.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/jtable_jqueryui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/jtable_jqueryui.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/jtable_jqueryui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jqueryui/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/jtable_theme_base.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/bg-thead.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/blue/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/blue/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/blue/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/blue/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/gray/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/gray/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/gray/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/gray/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/green/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/green/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/green/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/green/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/jtable_lightcolor_base.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/orange/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/orange/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/orange/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/orange/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/red/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/red/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/red/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/lightcolor/red/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/blue/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/blue/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/blue/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/blue/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/brown/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/brown/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/brown/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/brown/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/column-asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/column-desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/column-sortable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/crimson/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/crimson/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/crimson/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/crimson/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/darkgray/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/darkgray/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/darkgray/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/darkgray/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/darkorange/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/darkorange/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/darkorange/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/darkorange/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/green/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/green/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/green/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/green/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/jtable_metro_base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/jtable_metro_base.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/jtable_metro_base.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/lightgray/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/lightgray/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/lightgray/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/pink/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/pink/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/pink/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/pink/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/purple/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/purple/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/purple/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/purple/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/red/jtable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/red/jtable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/red/jtable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/jtable/themes/metro/red/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/spin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/split-pane.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/test-function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/tests/4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/js/weather.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/nsf-metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/results-2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/results-3.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/results.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/AjaxTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/admin/admin_panel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/admin/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/admin/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/info-pane.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/infoWindow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/map-tool.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/my_master.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/pageLayoutTemplate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/redirect_under_construction.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/security/_macros.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/security/_menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/security/_messages.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/security/login_user.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/security/register_user.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/testContent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/testDataTable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/tests/1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/tests/2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/tests/4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/tests/5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/tests/6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/templates/weather.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/views/advanced.jade" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keystone.js" afterPath="$PROJECT_DIR$/keystone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tool-helpers/dom-generator.js" afterPath="$PROJECT_DIR$/public/js/tool-helpers/dom-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tool-helpers/google-maps.js" afterPath="$PROJECT_DIR$/public/js/tool-helpers/google-maps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/tool-helpers/graphs.js" afterPath="$PROJECT_DIR$/public/js/tool-helpers/graphs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layouts/default.jade" afterPath="$PROJECT_DIR$/templates/layouts/default.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/index.jade" afterPath="$PROJECT_DIR$/templates/views/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/updates/0.0.1-admins.js" afterPath="$PROJECT_DIR$/updates/0.0.1-admins.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -541,14 +31,41 @@
   <component name="FileEditorManager">
     <leaf />
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dotenv</find>
+      <find>enea.</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/js/tool-helpers/dom-generator.js" />
+        <option value="$PROJECT_DIR$/public/js/tool-helpers/google-maps.js" />
+        <option value="$PROJECT_DIR$/public/js/tool-helpers/graphs.js" />
+        <option value="$PROJECT_DIR$/public/js/tool-helpers/split-pane.js" />
+        <option value="$PROJECT_DIR$/templates/layouts/default.jade" />
+        <option value="$PROJECT_DIR$/templates/views/index.jade" />
+        <option value="$PROJECT_DIR$/updates/0.0.1-admins.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/keystone.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1280" />
@@ -579,6 +96,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SensorMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SensorMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SensorMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -667,12 +198,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506379051547</updated>
-      <workItem from="1506379053355" duration="721000" />
+      <workItem from="1506379053355" duration="2457000" />
     </task>
+    <task id="LOCAL-00001" summary="Removed the old app source code">
+      <created>1506384220731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506384220731</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="721000" />
+    <option name="totallyTimeSpent" value="2457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -681,17 +220,17 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6068493" sideWeight="0.50277996" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33424658" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15753424" sideWeight="0.49722" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2109589" sideWeight="0.49722" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -702,12 +241,341 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed the old app source code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the old app source code" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/static/js/admin/admin_panel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/datapoint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Enquiry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/RestrictData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Sensor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/View.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dygraph/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1710">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dygraph/sync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dygraph/dygraph-combined.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/tool-helpers/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/tool-helpers/dom-generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="5" lean-forward="false" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+          <folding>
+            <marker date="1506386155000" expanded="true" signature="9549:10026" ph="..." />
+            <marker date="1506386155000" expanded="true" signature="9629:9657" ph="..." />
+            <marker date="1506386155000" expanded="true" signature="9752:9808" ph="..." />
+            <marker date="1506386155000" expanded="true" signature="9856:10010" ph="..." />
+            <marker date="1506386155000" expanded="true" signature="10099:10423" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/tool-helpers/google-maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/tool-helpers/graphs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22530">
+          <caret line="1502" column="17" lean-forward="false" selection-start-line="1502" selection-start-column="17" selection-end-line="1502" selection-end-column="17" />
+          <folding>
+            <marker date="1506386155000" expanded="true" signature="16375:16385" ph="..." />
+            <marker date="1506386155000" expanded="true" signature="16631:16641" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/tool-helpers/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/tool-helpers/spin.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/tool-helpers/split-pane.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="16" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mixins/flash-messages.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/errors/500.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/errors/404.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/advanced.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490755002000" expanded="true" signature="6017:6032" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/contact.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/gallery.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="47" lean-forward="false" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/map.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/test.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updates/0.0.1-admins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keystone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="55" column="75" lean-forward="false" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="75" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

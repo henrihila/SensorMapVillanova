@@ -41,9 +41,6 @@ function initialize() {
 	infowindow = new google.maps.InfoWindow({
 		content: "Waiting for content..."
 	});
-
-
-
 }
 
 function loadSites() {
@@ -78,7 +75,6 @@ function loadSites() {
 
         }
     });
-
 }
 
 /*
@@ -145,7 +141,6 @@ function bindInfoWindow(marker, map, infowindow, site) {
 				marker.setIcon({url: 'http://maps.gstatic.com/mapfiles/markers2/icon_green.png'});
 				// marker.set(labelContent', 'labels[labelIndex++ % labels.length]);
 				selectedSensors.push(site);
-				updateSiteWindowPane();
 			}
 
 		}
@@ -160,8 +155,6 @@ function bindInfoWindow(marker, map, infowindow, site) {
 
 			if (selectedMarkers.indexOf(marker) == -1) {
 
-				// log('Selected site', site);
-
                 // Place camera at center and on top of marker
 				if (Dashboard.state.localeCompare("minimized") == 0)
 					offsetCenter(marker.getPosition(), -($(window).width() * 0.15), 0);
@@ -172,9 +165,6 @@ function bindInfoWindow(marker, map, infowindow, site) {
 				selectedSensors.push(site);
 				//TODO: add local icon
 				marker.setIcon({url: 'http://maps.gstatic.com/mapfiles/markers2/icon_green.png'});
-				
-                // InfoWindow
-                //TODO: Id of ballon should be the site id
 
 				var markerSection = '<div id="site-marker-section"></div>';
 
@@ -185,9 +175,6 @@ function bindInfoWindow(marker, map, infowindow, site) {
 
             }
 		}
-		// infoWindow Pane
-		// infowindow.setContent("SensorID: " + sensor.id + "\n TimeValue: " + sensor.timeValue + "\nValue: " + sensor.value);
-		// updateSiteWindowPane("SensorID: " + sensor.id + "/n TimeValue: " + sensor.timeValue + "/nValue: " + "+ sensor.value");
 	});
 }
 

@@ -49,7 +49,6 @@ function mapToolbar(screenSize) {
 
 }
 
-
 var ViewsManager = {
 
     sections: [],
@@ -104,8 +103,6 @@ var ViewsManager = {
         });
 
     }
-
-
 };
 
 $(document).ready(function () {

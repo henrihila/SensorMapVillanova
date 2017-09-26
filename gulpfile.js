@@ -7,8 +7,6 @@ var sass   = require('gulp-sass');
 var minCss = require('gulp-minify-css');
 var rename = require('gulp-rename');
 
-
-
 // Scss to css
 gulp.task('sass', function () {
 	var config = {};
@@ -25,10 +23,8 @@ gulp.task('sass', function () {
 
 });
 
-
 gulp.task('watch', function() {
 	gulp.watch('public/styles/*.scss', ['sass']);
 });
-
 
 gulp.task('default', ['sass', 'watch']);
