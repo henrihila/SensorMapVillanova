@@ -1,7 +1,13 @@
+
+const utils = require('../utils');
 var keystone = require('keystone'),
     Site = keystone.list('Site');
 
 exports = module.exports = function (req, res) {
+
+    // utils.log('warn', 'Test');
+    console.log('[api.sites] - Getting existing sites.');
+    // utils.log('warn', 'Reaching api sites');
 
     Site.model.find().populate('sensors views').exec(function (err, sites) {
 

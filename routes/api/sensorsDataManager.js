@@ -11,6 +11,8 @@ var Promise = require('promise');
 var https = require('https');
 var async = require('async');
 
+const utils = require('../utils');
+
 /**
  * Calls the OPTI api and requests for sensor data.
  * @param sensorId: The sensor id as stored in the local db.
@@ -92,7 +94,7 @@ var _fetchAndUpdateSensorsData = function (sensorId, dataStreamId, period) {
 
 var fetchAndUpdateSensorsData = function (req, res) {
 
-    console.log(req.param('sensorId'));
+    console.log('Console debug', 'Req params: ');
 
     if (req.param('sensorId') && req.param('dataStreamId')) {
 
