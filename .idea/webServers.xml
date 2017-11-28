@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b18eccb9-aedd-45b8-ae16-85430b72ad8b" name="sensor_map" url="http://153.104.203.181">
+        <fileTransfer host="153.104.203.181" port="22" rootFolder="/home/ceeruser" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

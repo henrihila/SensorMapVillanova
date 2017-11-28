@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name"        : "sensor-map-development",
+    "script"      : "./keystone.js",
+    "watch"       : true,
+    "env": {
+      "NODE_ENV": "development"
+    }
+  }]
+}
